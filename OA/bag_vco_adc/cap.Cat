@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+bag_vco_adc/cap_drv type="cell"
+bag_vco_adc/cap_unit type="cell"
+bag_vco_adc/cdac_array_bot type="cell"
+bag_vco_adc/cdac_unit type="cell"
+keepEmptyCategory type="unknown"

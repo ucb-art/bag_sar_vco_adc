@@ -1,0 +1,446 @@
+lib_name: bag_vco_adc
+cell_name: vco_vco
+view_name: symbol
+bbox:
+  - 346
+  - -144
+  - 574
+  - 74
+terminals:
+  VDD:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 456
+          - 66
+          - 464
+          - 74
+    stype: 0
+    ttype: 2
+  VSS:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 456
+          - -144
+          - 464
+          - -136
+    stype: 0
+    ttype: 2
+  phi:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 566
+          - -24
+          - 574
+          - -16
+    stype: 0
+    ttype: 1
+  phi_buf:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 566
+          - -64
+          - 574
+          - -56
+    stype: 0
+    ttype: 1
+  tail:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 416
+          - -144
+          - 424
+          - -136
+    stype: 2
+    ttype: 2
+  vbot:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 436
+          - -144
+          - 444
+          - -136
+    stype: 2
+    ttype: 2
+  vctrl:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 346
+          - -44
+          - 354
+          - -36
+    stype: 0
+    ttype: 0
+  vtop:
+    obj:
+      - 0
+      - layer: 229
+        purpose: 4294967295
+        net: ""
+        bbox:
+          - 436
+          - 66
+          - 444
+          - 74
+    stype: 1
+    ttype: 2
+shapes:
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 366
+        - -40
+      alignment: 1
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vctrl
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 550
+          - -30
+        -
+          - 560
+          - -10
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 560
+          - -50
+        -
+          - 550
+          - -70
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 570
+          - -20
+        -
+          - 530
+          - -20
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 564
+        - -10
+      alignment: 7
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: phi
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 460
+        - -96
+      alignment: 1
+      orient: R270
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VSS
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 460
+        - 64
+      alignment: 1
+      orient: R270
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: VDD
+  -
+    - 0
+    - layer: 236
+      purpose: 4294967295
+      net: ""
+      bbox:
+        - 350
+        - -140
+        - 570
+        - 70
+  -
+    - 8
+    - layer: 236
+      purpose: 237
+      net: ""
+      origin:
+        - 440
+        - 30
+      alignment: 1
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: "[@instanceName]"
+      evaluator: cdsNLPEvalText
+  -
+    - 8
+    - layer: 231
+      purpose: 237
+      net: ""
+      origin:
+        - 515
+        - -130
+      alignment: 4
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: "[@partName]"
+      evaluator: cdsNLPEvalText
+  -
+    - 0
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      bbox:
+        - 350
+        - -140
+        - 570
+        - 70
+  -
+    - 4
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      bbox:
+        - 408
+        - -92
+        - 512
+        - 12
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 420
+        - -96
+      alignment: 1
+      orient: R270
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: tail
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 470
+          - -20
+        -
+          - 480
+          - -20
+        -
+          - 480
+          - -30
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 570
+          - -60
+        -
+          - 530
+          - -60
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 564
+        - -50
+      alignment: 7
+      orient: R0
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: phi_buf
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 480
+          - -20
+        -
+          - 440
+          - -60
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 440
+        - 64
+      alignment: 1
+      orient: R270
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vtop
+  -
+    - 5
+    - layer: 231
+      purpose: 4294967295
+      net: ""
+      points:
+        -
+          - 420
+          - -40
+        -
+          - 420
+          - -30
+        -
+          - 430
+          - -20
+        -
+          - 450
+          - -20
+        -
+          - 460
+          - -30
+        -
+          - 460
+          - -50
+        -
+          - 470
+          - -60
+        -
+          - 490
+          - -60
+        -
+          - 500
+          - -50
+        -
+          - 500
+          - -40
+  -
+    - 7
+    - layer: 229
+      purpose: 237
+      net: ""
+      origin:
+        - 440
+        - -96
+      alignment: 1
+      orient: R270
+      font: 5
+      height: 10
+      overbar: false
+      visible: true
+      drafting: true
+      text: vbot
+instances:
+  {}
+props:
+  interfaceLastChanged:
+    - 4
+    - time_val: 1658002501
+  partName:
+    - 3
+    - vco_vco
+  pin#:
+    - 0
+    - 11
+  portOrder:
+    - 5
+    - name: ILList
+      bin_val: ("phi" "phi_buf" "VDD" "VSS" "tail" "vbot" "vtop" "vctrl")
+  vendorName:
+    - 3
+    - ""
+app_defs:
+  _dbLastSavedCounter:
+    - 0
+    - 474
+  _dbvCvTimeStamp:
+    - 0
+    - 474
+  cdbRevision:
+    - 0
+    - 227612

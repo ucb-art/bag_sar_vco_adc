@@ -1,0 +1,7 @@
+TDMCHECKPOINT="1.0"
+bag_vco_adc/clk.Cat type="category"
+bag_vco_adc/dac.Cat type="category"
+bag_vco_adc/ra.Cat type="category"
+bag_vco_adc/sah.Cat type="category"
+bag_vco_adc/sar.Cat type="category"
+bag_vco_adc/vco.Cat type="category"

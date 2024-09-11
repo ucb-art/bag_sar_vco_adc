@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+bag_vco_adc/bootstrap type="cell"
+bag_vco_adc/bootstrap_diff type="cell"
+bag_vco_adc/bootstrap_fast type="cell"
+bag_vco_adc/nmos_sampler_diff type="cell"
+keepEmptyCategory type="unknown"

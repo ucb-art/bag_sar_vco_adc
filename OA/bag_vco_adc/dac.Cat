@@ -1,0 +1,7 @@
+TDMCHECKPOINT="1.0"
+bag_vco_adc/rdac_dec type="cell"
+bag_vco_adc/rdac_dec_bi2th type="cell"
+bag_vco_adc/rdac_dec_unit type="cell"
+bag_vco_adc/rdac_mux_unit type="cell"
+bag_vco_adc/rdac_np_mux type="cell"
+keepEmptyCategory type="unknown"
